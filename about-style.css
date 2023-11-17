@@ -1,0 +1,242 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+    color: white;
+    width: 100%;
+    border: 0;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-bottom: 0;
+  }
+  
+  .navbar li{
+    padding: 20px 10px 10px 10px;
+    font-size: 20px;
+  }
+  
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0, 20px;
+    position: relative;
+  }
+  
+  .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  
+  .navbar ul li:hover::after{
+    width: 100%;
+  }
+  
+  
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .content h1{
+    font-size: 100px auto;
+    margin-top: 120px;
+  }
+  
+  .content p{
+    font-weight: 100;
+    margin: 10px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+  .banner {
+    background-size: cover;
+    background-position: center;
+    background-size: auto;
+    background-repeat: none;
+    height: 100vh;
+  }
+
+  .banner-aboutus {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/about-us-interior.jpeg");
+  }
+  
+  .style-info {
+  font-size: 30px;
+  line-height: 3em;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .style-info p {
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: white;
+  background-color: rgb(105, 104, 104);
+  position: relative;
+  top: 100px;
+  border-radius: 40px;
+  padding: 0 20px 0 20px;
+  font-weight: 1000;
+  }
+  
+  .styles {
+  background-image: url(Pictures/white-background-with-zigzag-pattern-design_1017-33197.avif);
+  background-size: cover;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: repeat;
+  position: relative;
+  bottom: 80px;
+  }
+
+  
+  .palm {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+  }
+  
+  .palm-other {
+    position: relative;
+  bottom: 85px;
+  top: -4px;
+  }
+  
+  .p1 {
+   left: 765px;
+  }
+  
+  .p2 {
+    transform: rotate(180deg);
+    top: 700px;
+  }
+  
+  .p3 {
+    transform: rotate(180deg);
+    top: 140px;
+  }
+  
+  .p4 {
+    transform: rotate(180deg);
+    top: 1200px;
+    transform: scalex(-1);
+  }
+  
+  .p5 {
+   left: 765px;
+   top: 1800px;
+  }
+  
+  .p6 {
+   left: 765px;
+   top: 1300px;
+   transform: scaleX(-1);
+   transform: rotate(180deg);
+   transform: scaleY(-1);
+  }
+
+  .footer {
+    margin-top: 0px;
+    width: 70%;
+    height: 120px;
+    padding: 100px 15%;
+    background:rgba(37, 36, 36, 0.75);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+  }
+  
+  .footer div {
+    text-align: center;
+  }
+  
+  .footer-other {
+    top: 638px;
+  }
+  
+  .col-2 {
+    flex-grow: 2;
+  }
+  
+  .footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  }
+  
+  .col-1 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+  }
+  
+  form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    margin-top: 30px;
+  }
+  
+  .social-icons i {
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  
+  

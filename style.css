@@ -1,0 +1,467 @@
+html{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: white;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  border: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+.navbar li{
+  padding: 20px 10px 10px 10px;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0, 20px;
+  position: relative;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0px;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
+.first-row {
+  font-size: 30px;
+}
+
+.second-row {
+  font-size: 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100px;
+}
+
+.content h1{
+  font-size: 100px auto;
+  margin-top: 120px;
+}
+
+.content p{
+  font-weight: 100;
+  margin: 10px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-size: auto;
+  background-repeat: none;
+  height: 100vh;
+}
+
+.banner-index {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("/Pictures/Bedroomtings.jpeg");
+}
+
+.banner-industrial {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/industrial.jpeg");
+}
+
+.banner-boho {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/boho.jpeg");
+}
+
+.banner-countryhouse {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/country house.jpeg");
+}
+
+.banner-mediterranean {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/mediterranean.jpeg");
+}
+
+.banner-minimal {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/minimal.jpeg");
+}
+
+.banner-traditional {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/traditional.jpeg");
+}
+
+.banner-shop {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/interior-shop.webp");
+}
+
+.banner-aboutus {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(62, 61, 61, 0.75)), url("Pictures/Interior Styles/about-us-interior.jpeg");
+}
+
+.grid-container img{
+  width: 350px;
+  height: 350px;
+border-radius: 500px;
+padding-top: 20px;
+top: auto;
+position: relative;
+left: 80px;
+}
+
+.grid-container-industrial img {
+left: 0px;
+z-index: 1;
+}
+
+main ul{
+  list-style: none;
+}
+
+main li img{
+  text-align: left;
+}
+
+.style-info {
+font-size: 30px;
+line-height: 1.3em;
+display: flex;
+flex-direction: column;
+}
+
+
+.styles {
+background-image: url(Pictures/white-background-with-zigzag-pattern-design_1017-33197.avif);
+background-size: cover;
+background-position: center;
+background-size: 50%;
+height: 2300px;
+background-repeat: repeat;
+}
+
+
+.industrial-style {
+  height: 1500px;
+}
+
+.industrial-style .p3 {
+  top: 820px;
+  }
+
+.mediterranean-style {
+position: relative;
+top: 50px;
+height: 1500px;
+}
+
+
+.mediterranean-style .p3 {
+  top: 820px;
+  }
+
+
+.style-info p {
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: white;
+  background-color: rgb(105, 104, 104);
+  position: relative;
+  top: 0px;
+  border-radius: 40px;
+  padding: 0 20px 0 20px;
+  font-weight: 1000;
+  width: 100%;
+}
+
+.palm {
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.palm-other {
+  position: relative;
+bottom: 85px;
+}
+
+.p1 {
+ left: 765px;
+}
+
+.p2 {
+  transform: rotate(180deg);
+  top: 200px;
+  right: 510px;
+}
+
+.p3 {
+  transform: rotate(180deg);
+  top: 1300px;
+}
+
+.p4 {
+  transform: rotate(180deg);
+  top: 190px;
+  right: 510px;
+  transform: scalex(-1);
+}
+
+.p5 {
+ left: 765px;
+ top: 300px;
+}
+
+.p6 {
+ left: 265px;
+ top: -200px;
+ transform: scaleX(-1);
+ transform: rotate(180deg);
+ transform: scaleY(-1);
+}
+
+.grid-container {
+display: grid;
+position: relative;
+left: 200px;
+bottom: 1500px;
+align-items: center;
+justify-items: left;
+max-width: 75%;
+width: 75%;
+font-size: 25px;
+grid-template-rows: repeat(6) 1fr;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: 
+"one two"
+"three four"
+"five six"
+"seven eight"
+"nine ten"
+"eleven twelve"
+}
+
+.grid-container h3 p {
+position: relative;
+right: 700px;
+}
+
+.grid-container a {
+text-decoration: none;
+}
+
+.grid-item1 {
+  grid-area: one;
+  color: black;
+}
+
+.grid-item2 {
+  grid-area: two;
+  color: black;
+  align-items: center;
+}
+
+.grid-item3 {
+  grid-area: three;
+  
+  width: 50%;
+  color: black;
+}
+
+.grid-item4 {
+  grid-area: four;
+  
+  width: 50%;
+  color: black;
+}
+
+.grid-item5 {
+  grid-area: five;
+  
+  color: black;
+}
+
+.grid-item6 {
+  grid-area: six;
+  
+  color: black;
+}
+
+.grid-item7 {
+  grid-area: seven;
+  
+  color: black;
+}
+
+.grid-item8 {
+  grid-area: eight;
+  
+  color: black;
+}
+
+.grid-item9 {
+  grid-area: nine;
+  
+  color: black;
+}
+
+.grid-item10 {
+  grid-area: ten;
+  
+  color: black;
+}
+
+.grid-item11 {
+  grid-area: eleven;
+  
+  color: black;
+}
+
+.grid-item12 {
+  grid-area: twelve;
+  
+  color: black;
+}
+
+.footer {
+  margin-top: 0px;
+  width: 70%;
+  height: 120px;
+  padding: 100px 15%;
+  background:rgba(37, 36, 36, 0.75);
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.footer-other {
+  top: 2100px;
+}
+
+.col-2 {
+  flex-grow: 2;
+}
+
+.footer div h3 {
+font-weight: 300;
+margin-bottom: 30px;
+letter-spacing: 1px;
+}
+
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    padding-left: 0px;
+    padding-bottom: 0;
+  }
+  .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1px;
+  }
+  .navbar li{
+    padding: 10px 5px 5px 5px;
+    font-size: 15px;
+  }
+  .banner {
+    background-size: cover;
+    background-position: top;
+    background-size: auto;
+    background-repeat: none;
+    height: 100vh;
+
+  }
+  .content h1{
+    margin-top: 20px;
+  }
+}
+
